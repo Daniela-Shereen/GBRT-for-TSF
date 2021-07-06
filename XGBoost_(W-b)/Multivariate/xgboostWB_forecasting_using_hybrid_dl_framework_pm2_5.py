@@ -151,7 +151,7 @@ Y_Test_Full=[]
 
 range_list = [1]
 
-data=pd.read_csv('/Code/Data/Multivariate/PM2_5.csv')
+data=pd.read_csv('/GBRT-for-TSF/Data/Multivariate/PM2_5.csv')
 header=list(data.columns.values)
 #print(header)
 data=pd.DataFrame(data,columns=header)
