@@ -10,8 +10,12 @@ Time Series Forecasting?" paper.
 * 4- scikit-learn
 
 
-## Download the datasets and place them in the respective "Uni-" and/or "Multivariate" folders in the Data folder.
+## Datasets
 
-## To run any of the scripts it is required to check the "data_path" of the required file, then running command is 
+Download the datasets and place them in the respective "Uni-" and/or "Multivariate" folders in the Data folder.
+
+## Runing files
+
+To run any of the scripts it is required to check the "data_path" of the required file, then running command is 
 
  - python file_name e.g. "python xgboostWB_electricity.py"
