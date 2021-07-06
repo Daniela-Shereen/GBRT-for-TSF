@@ -110,7 +110,7 @@ def New_preprocessing(TimeSeries):
    #print('len xTestbatches',len(x_testbatches))
    return x_batches, y_batches, x_testbatches, y_testbatches
 
-data_path=r'/Code/Data/Univariate/pems.npy'
+data_path=r'/GBRT-for-TSF/Data/Univariate/pems.npy'
 
 data=np.load(data_path)
 data=pd.DataFrame(data)
