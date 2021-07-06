@@ -115,7 +115,7 @@ def New_preprocessing(TimeSeries):
    #print(' xTestbatches',len(x_testbatches),' yTestbatches',len(y_testbatches))
    return x_batches, y_batches, x_testbatches, y_testbatches
 
-data=pd.read_csv('/Code/Data/Univariate/exchange_rate.txt',sep=',',header=None)
+data=pd.read_csv('/GBRT-for-TSF/Data/Univariate/exchange_rate.txt',sep=',',header=None)
 
 data=pd.DataFrame(data)
 data=data.T
