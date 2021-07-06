@@ -136,7 +136,7 @@ def preprocessing(df_,num_features):
     
     return x_batches, y_batches, x_testbatches, y_testbatches
 
-data_path1=r'/Code/Data/Multivariate/NASDAQ/nasdaq100.csv'
+data_path1=r'/GBRT-for-TSF/Data/Multivariate/NASDAQ/nasdaq100.csv'
 data_All=pd.DataFrame()
 x_batches_Full=[]
 y_batches_Full=[]
