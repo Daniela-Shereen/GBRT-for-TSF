@@ -4,10 +4,10 @@ This read me file describes the steps to run the code for "Do We Really Need Dee
 Time Series Forecasting?" paper.
 
 Requirements*
-1- numpy
-2- pandas
-3- XGBoost python library 
-4- scikit-learn
+*1- numpy
+*2- pandas
+*3- XGBoost python library 
+*4- scikit-learn
 
 
 Download the datasets and place them in the respective "Uni-" and/or "Multivariate" folders in the Data folder.
