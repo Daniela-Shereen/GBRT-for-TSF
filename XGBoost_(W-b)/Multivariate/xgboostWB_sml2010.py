@@ -137,8 +137,8 @@ def preprocessing(df_,num_features):
     
     return x_batches, y_batches, x_testbatches, y_testbatches
 
-data_path1=r'/Code/Data/Multivariate/SML_Data/SML1.txt'
-data_path2=r'/Code/Data/Multivariate/SML_Data/SML2.txt'
+data_path1=r'/GBRT-for-TSF/Data/Multivariate/SML_Data/SML1.txt'
+data_path2=r'/GBRT-for-TSF/Data/Multivariate/SML_Data/SML2.txt'
 
 data_All=pd.DataFrame()
 x_batches_Full=[]
