@@ -128,8 +128,8 @@ def preprocessing(df_,num_features):
     
     return x_batches, y_batches, x_testbatches, y_testbatches
 
-data_path1=r'/Code/Data/Multivariate/UrbanAirQualityData/meteorology.csv'
-data_path2=r'/Code/Data/Multivariate/UrbanAirQualityData/airquality.csv'
+data_path1=r'/GBRT-for-TSF/Data/Multivariate/UrbanAirQualityData/meteorology.csv'
+data_path2=r'/GBRT-for-TSF/Data/Multivariate/UrbanAirQualityData/airquality.csv'
 
 data_All=pd.DataFrame()
 x_batches_Full=[]
