@@ -126,7 +126,7 @@ def preprocessing(df_,num_features):
     
     return x_batches, y_batches, x_testbatches, y_testbatches
 
-data_path='/Code/Data/Multivariate/PM2_5.csv'
+data_path='/GBRT-for-TSF/Data/Multivariate/PM2_5.csv'
 data_All=pd.DataFrame()
 x_batches_Full=[]
 y_batches_Full=[]
