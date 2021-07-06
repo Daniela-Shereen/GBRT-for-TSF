@@ -122,7 +122,7 @@ def New_preprocessing(TimeSeries):
 
 
 
-data=pd.read_csv('/Code/Data/Univariate/solar_AL.txt',sep=',',header=None)
+data=pd.read_csv('/GBRT-for-TSF/Data/Univariate/solar_AL.txt',sep=',',header=None)
 data=pd.DataFrame(data)
 data=data.T
 #print('Complete Data Shape',data.shape)  # same as for LSTNet
