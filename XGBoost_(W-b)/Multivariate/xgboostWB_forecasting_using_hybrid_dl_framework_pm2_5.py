@@ -18,8 +18,7 @@ from random import shuffle
 
 from sklearn.multioutput import MultiOutputRegressor
 import xgboost as xgb
-#TF Version
-tf.__version__
+
 
 num_periods_output = 6 #to predict
 num_periods_input=1 #input
