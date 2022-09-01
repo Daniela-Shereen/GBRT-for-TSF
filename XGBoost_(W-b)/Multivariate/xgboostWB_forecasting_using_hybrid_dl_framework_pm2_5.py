@@ -36,13 +36,7 @@ from sklearn.preprocessing import Normalizer
 def preprocessing(df_,num_features):
     
     cols=df_.columns
-    print('XXXXXXXXXXXX shape before',df_.shape)
-    #print('XXXXXXXXXX date',df_['Date'].dtype)
-    #df_['Date'] =  pd.to_datetime(df_['Date'], format='%Y-%m-%d')
-    #print('date',df_['Date'].dtype)
-    #df_['DayofWeek']=df_['Date'].dt.dayofweek
-    # df_['Week']=df_['Date'].dt.week
-    # df_['dayofyear']=df_['Date'].dt.dayofyear
+
     Train=df_[(df_.year==2010) | (df_.year==2011)| (df_.year==2012)| (df_.year==2013)]
     #Train=df_[(df_.year==2010) | (df_.year==2011)| (df_.year==2012)]
     Test=df_[(df_.year==2014)]
@@ -150,6 +144,8 @@ Y_Test_Full=[]
 
 range_list = [1]
 
+# get the data here:
+# https://archive.ics.uci.edu/ml/datasets/Beijing+PM2.5+Data#
 data=pd.read_csv('../../Data/Multivariate/PM2_5.csv')
 header=list(data.columns.values)
 #print(header)
